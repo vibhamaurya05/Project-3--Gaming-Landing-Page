@@ -1,0 +1,415 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background {
+    height: 90vh;
+    width: 210vh;
+    
+}
+.container{
+    height: 66.6vh;
+    background-color: #0C0C0C;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    height: 4.8vh;
+    
+}
+
+.list{
+    align-items: center;
+    height: 3.1vh;
+    width: 45vh;
+    margin-top: 1rem;   
+}
+ul{
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;  
+    list-style: none;    
+}
+li{
+    color: aliceblue;
+    font-size: 1.2rem;
+}
+.contact1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 5vh;
+    width: 25vh;
+    margin-top: 0.7rem;
+}
+.contact1 a{
+    text-decoration: none;
+    color: white;
+}
+.contact1 button{
+    height: 5vh;
+    width: 13vh;
+    color: white;
+    border: none;
+    background-color: rgb(250, 18, 18);
+}
+.left-right{
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+.div-left{
+    height: 36.7vh;
+    width: 48.8vh;   
+    display:flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 2.5rem;
+}
+h1{
+    width: 470px;
+    height:180px;
+    color: white;
+    font-size: 50px;
+}
+p{
+    width: 500px;
+    height: 50px;
+    color: white;
+}
+.button2{
+    height: 60px;
+    width: 310px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button2 button{
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+    border: none;
+}
+.div-right{
+    height: 35.52vh;
+    width: 500px;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    
+}
+.play{
+    height: 50px;
+    width: 50px;
+    background-image: url('./Assets/Icons/playButton.svg');
+    background-size: cover;
+    margin-top: 6rem;
+    margin-left: 12rem;
+}
+.other{
+    height: 100px;
+    width: 255px;
+    margin-top: 7rem;
+    margin-left: 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+.dash{
+    height: 3px;
+    width: 40px;
+    background: url('./Assets/Icons/dash.svg');
+    background-size: cover;
+    
+}
+.content{
+    height: 100px;
+    width: 140px;
+    color: white;
+    font-size: 1rem;
+}
+.next-arr{
+    height: 15px;
+    width: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 5rem;
+}
+.head{
+    height: 95vh;
+}
+h2{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 2rem;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    height: 60vh;
+    width: 185vh;
+    margin-top: 10vh;
+    margin-left: 12vh;
+}
+.img{
+    height: 60vh;
+    width: 44vh;
+}
+.img img{
+    height: 42vh;
+    width: 44vh;
+    
+}
+.txt{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+    width: 43.5vh;
+}
+.con{
+    height: 16vh;
+    width:25vh;
+} 
+.con p{
+    margin-top: 1.1rem;
+    width: 11vh;
+}
+.txt button{
+    height: 6vh;
+    width: 14vh;
+    background-color: rgb(250, 18, 18);
+    border: none;
+}
+
+.star{
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+    width: 15vh;
+    margin-top: -1rem;
+    
+}
+.star img{
+    height: 2.5vh;
+    width: 2.5vh;
+}
+.adernaline{
+    height: 500px;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0.8rem;
+}
+.adernaline-img{
+    height: 70vh;
+    width: 70vh;
+    margin-top: 2rem;
+}
+.adernaline-content{
+    height: 50vh;
+    width: 60vh;
+    margin-top: 2rem;
+}
+.adernaline-content h1{
+    color: black;
+    font-size: 2.6rem;
+}
+.adernaline-content p{
+    color: rgb(156, 155, 155);
+}
+.recommendation{
+    height: 110vh;
+    margin-top: 5.5rem;  
+}
+.recommend{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.recommend h3{
+    height: 8vh;
+    width: 65vh;
+    font-size: 2rem; 
+    margin-left: 4rem;
+}
+.arrow{
+    height: 50px;
+    width: 120px;
+    margin-right: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.left-arrow{
+    height: 45px;
+    width: 45px;
+    background-color: pink;
+}
+.next-arrow{
+    height: 45px;
+    width: 45px;
+    background-color: red;
+}
+.items{
+    height: 100vh;
+}
+.item{
+    height: 22.2vh;
+    width: 93.28vh;
+    display: inline-block;
+    margin-left: 3rem;
+    margin-top: 2.5rem;
+}
+.ex{
+    height: 22.2vh;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+.ext{
+    width: 35vh;
+    height: 250px;    
+}
+.int{
+    width: 55vh;
+    height: 250px;
+}
+.int h3{
+    font-size: 1.7rem;
+}
+.int h5{
+    color: rgb(252, 47, 47);
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+.int p{
+    color: rgb(151, 149, 149);
+    margin-top: 1.3rem;
+    width: 300px;
+}
+.int button{
+    height: 35px;
+    width: 90px;
+    margin-top: 1.7rem;
+    border: none;
+}
+.most-played{
+    height: 110vh;
+    background-color: rgb(7, 7, 7);
+}
+.cont h3{
+    padding: 7vh;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    
+}
+.cont p{
+    font-size: 1rem;
+    color: white;
+    margin-left: 80vh;
+    margin-top: 1rem;
+}
+.cont img{    
+    margin-top: 5vh;
+    margin-left: 62vh;
+}
+.photos{
+    display: flex;
+    justify-content: space-evenly;
+    height: 55vh;
+    width: 150vh;
+    margin-left: 20vh;
+    z-index: 1;
+   
+}
+.one{
+    height: 52vh;
+    width: 42vh;
+    position: absolute;
+    margin-top: -20vh;
+    margin-left: -97vh;
+}
+.two{
+    height: 47vh;
+    width: 40vh;
+    position: absolute;
+    margin-bottom: 3vh;
+}
+.three{
+    height: 42vh;
+    width: 46vh;
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 99vh;
+}
+
+.unforgetable{
+    height: 470px;
+    background-image: url('./Assets/Photos/unforgetable.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity:0.8;
+}
+.unforgetable h2{
+    height: 170px;
+    font-size: 4rem;
+    padding-top: 60px;
+    color: white;
+    margin-top: 0%;   
+}
+.unforgetable p{
+    color: rgb(241, 238, 238);
+    align-content: center;
+    font-size: 1rem;
+    margin-left: 27rem;
+    margin-top: 1rem;
+}
+.unforgetable button{
+    height: 2.7rem;
+    width: 8rem;
+    color: white;
+    background-color: rgb(250, 18, 18);
+    margin-left: 37rem;
+    margin-top: 2rem;
+    border: none;
+}
+footer{
+    height: 300px;
+    background-color:rgb(14, 12, 12);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.Logo{
+    height: 200px;
+    width: 220px;    
+}
+.article, .league, .team, .contact{
+    height: 220px;
+    width: 220px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;     
+}
+.article, .league, .team{
+    font-size: 1.1rem;
+    color: rgb(255, 254, 254);
+    gap: 1rem;
+}
+h5{
+    font-size: 1.3rem;
+    color: beige;
+}
+.foot-icons{
+    height: 40px;
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Logo p{
+    margin-top: 1rem;
+}
